@@ -40,6 +40,6 @@ for (tissue in Tissue) {
     result = result[complete.cases(result),]
     #Put GeneID as column 
     result = cbind(GeneID = rownames(result), result)
-    write.table(result, paste("SARS-CoV-2_vs_Mock_", tissue, ".txt",sep=""),sep = '\t')
+    write.table(result, paste("SARS-CoV-2_vs_Mock_", tissue, ".txt",sep=""),sep = '\t',row.names = FALSE)
 
 }
