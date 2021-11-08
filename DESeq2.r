@@ -3,20 +3,20 @@ library(DESeq2)
 #Read in count information. 
 countData = read.table("HamsterCounts.tsv",header=TRUE,row.names=1,sep = '\t')
 ##Read in expermental design
-colData = read.table("Design",header=TRUE,row.names=1,sep = '\t')
+metadata = read.table("Design",header=TRUE,row.names=1,sep = '\t')
 
 
 
 
 #Get list of tissues 
-Tissue=list(colData$TISSUE)
+Tissue=list(metadata$TISSUE)
 Tissue= sapply(Tissue, unique)
 
 for (tissue in Tissue) {
 
 
     #Select Tissue
-    colData=colData[colData$TISSUE==tissue,]
+    colData=metadata[metadata$TISSUE==tissue,]
     
     
     #Get sample names 
