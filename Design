@@ -1,0 +1,40 @@
+RUN_ID	SAMPLE	INFECTION	DATE	TISSUE
+JF169_indexA6	S3_1_lung	SARS-CoV-2	3 dpi	Lungs
+JF173_indexE6	S3_2_lung	SARS-CoV-2	3 dpi	Lungs
+JF177_indexA7	S3_3_lung	SARS-CoV-2	3 dpi	Lungs
+JF268_H11	S3_4_Lungs	SARS-CoV-2	3 dpi	Lungs
+JF145_indexE7	M3_1_lung	Mock	3 dpi	Lungs
+JF149_indexA8	M3_2_lung	Mock	3 dpi	Lungs
+JF153_indexE8	M3_3_lung	Mock	3 dpi	Lungs
+JF171_indexC6	S3_1_kidney	SARS-CoV-2	3 dpi	Kidney
+JF175_indexG6	S3_2_kidney	SARS-CoV-2	3 dpi	Kidney
+JF179_indexC7	S3_3_kidney	SARS-CoV-2	3 dpi	Kidney
+JF285_G3	S3-4 Kidney_2.0	SARS-CoV-2	3 dpi	Kidney
+JF147_indexG7	M3_1_kidney	Mock	3 dpi	Kidney
+JF151_indexC8	M3_2_kidney	Mock	3 dpi	Kidney
+JF155_indexG8	M3_3_kidney	Mock	3 dpi	Kidney
+JF170_indexB6	S3_1_heart	SARS-CoV-2	3 dpi	Heart
+JF174_indexF6	S3_2_heart	SARS-CoV-2	3 dpi	Heart
+JF178_indexB7	S3_3_heart	SARS-CoV-2	3 dpi	Heart
+JF269_A12	S3_4_Heart	SARS-CoV-2	3 dpi	Heart
+JF146_indexF7	M3_1_heart	Mock	3 dpi	Heart
+JF150_indexB8	M3_2_heart	Mock	3 dpi	Heart
+JF154_indexF8	M3_3_heart	Mock	3 dpi	Heart
+JF31_index_D4	S3-1 Cerebellum	SARS-CoV-2	3 dpi	Cerebellum
+JF32_index_D5	S3-2 Cerebellum	SARS-CoV-2	3 dpi	Cerebellum
+JF33_index_D6	S3-3 Cerebellum	SARS-CoV-2	3 dpi	Cerebellum
+JF28_index_D1	M3-1 Cerebellum	Mock	3 dpi	Cerebellum
+JF29_index_D2	M3-2 Cerebellum	Mock	3 dpi	Cerebellum
+JF30_index_D3	M3-3 Cerebellum	Mock	3 dpi	Cerebellum
+JF67_index_H4	S3-1 olfactory bulb	SARS-CoV-2	3 dpi	Olfactory Bulb
+JF68_index_H5	S3-2 olfactory bulb	SARS-CoV-2	3 dpi	Olfactory Bulb
+JF69_index_H6	S3-3 olfactory bulb	SARS-CoV-2	3 dpi	Olfactory Bulb
+JF64_index_H1	M3-1 olfactory bulb	Mock	3 dpi	Olfactory Bulb
+JF65_index_H2	M3-2 olfactory bulb	Mock	3 dpi	Olfactory Bulb
+JF66_index_H3	M3-3 olfactory bulb	Mock	3 dpi	Olfactory Bulb
+JF245_A9	S3_1_Striatum_2.0	SARS-CoV-2	3 dpi	Striatum
+JF50_index_F5	S3-2 striatum	SARS-CoV-2	3 dpi	Striatum
+JF51_index_F6	S3-3 striatum	SARS-CoV-2	3 dpi	Striatum
+JF46_index_F1	M3-1 striatum	Mock	3 dpi	Striatum
+JF244_H8	M3_2_Striatum_2.0	Mock	3 dpi	Striatum
+JF48_index_F3	M3-3 striatum	Mock	3 dpi	Striatum
