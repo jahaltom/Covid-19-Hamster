@@ -38,6 +38,8 @@ for (tissue in Tissue) {
     result = results(dds, contrast=c("INFECTION","SARS-CoV-2","Mock"))
     ## Remove rows with NA
     result = result[complete.cases(result),]
-    write.table(result, paste("SARS-CoV-2_vs_Mock_", tissue, ".txt",sep=""))
+    #Put GeneID as column 
+    result = cbind(GeneID = rownames(result), result)
+    write.table(result, paste("SARS-CoV-2_vs_Mock_", tissue, ".txt",sep=""),sep = '\t')
 
 }
