@@ -3,7 +3,7 @@ library(DESeq2)
 #Read in count information. 
 countData = read.table("HamsterCounts.tsv",header=TRUE,row.names=1,sep = '\t')
 ##Read in expermental design
-metadata = read.table("Design",header=TRUE,row.names=1,sep = '\t')
+metadata = read.table("Design.tsv",header=TRUE,row.names=1,sep = '\t')
 
 
 
